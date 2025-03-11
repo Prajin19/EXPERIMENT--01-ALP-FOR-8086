@@ -128,6 +128,41 @@ HLT
 ## Final Output
 ![Screenshot 2025-03-11 103345](https://github.com/user-attachments/assets/5b22403a-1026-4eda-80f4-dc6adfcd407a)
 
+## AND of 8 bit numbers ALP
+```
+MOV AX,2122H
+MOV BX,3451H
+AND AX,BX
+```
+# Output
+![Screenshot 2025-03-11 105314](https://github.com/user-attachments/assets/37ed1c11-f23f-4387-b054-0a9f86acee1b)
+
+## OR of 8 bit numbers ALP
+```
+MOV CX,5614H
+MOV DX,2346H
+OR CX,DX
+```
+# Output
+![Screenshot 2025-03-11 105326](https://github.com/user-attachments/assets/4c8156e9-b37c-460b-b9c2-3772faa35aa0)
+
+## XOR of 8 bit numbers ALP
+```
+MOV AX,3546H
+MOV CX,2381H
+XOR AX,CX
+```
+# Output
+![Screenshot 2025-03-11 105408](https://github.com/user-attachments/assets/2692abe4-12b1-4a5f-989d-c5b1e6052d79)
+
+## NOT of 8 bit numbers ALP
+```
+MOV DX,4129H
+NOT DX 
+```
+# Output
+![Screenshot 2025-03-11 105418](https://github.com/user-attachments/assets/a4db8725-cf80-4be0-b83a-4c657ce3fd72)
+
 ## Result :
  
 The execution of ALP on fundamental arithmetic and logical operations is successfully completed.
